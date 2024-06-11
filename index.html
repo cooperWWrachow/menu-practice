@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+
+    <link rel="stylesheet" href="static/styles.css">
+    <link rel="stylesheet" href="static/mediaqueries.css">
+</head>
+<body>
+    <nav id="menu-nav">
+        <div class="nav-links">
+            <ul>
+                <li><a href="#lunch">Lunch</a></li>
+                <li><a href="#drinks">Drinks</a></li>
+                <li><a href="#dinner">Dinner</a></li>
+                
+            </ul>
+        </div>
+        <div class="logo">
+            <h1>Coolest Logo!</h1>
+        </div>
+        <div class="nav-links">
+            <ul>
+                <li><a href="#hours">Hours</a></li>
+                <li><a href="#more">More</a></li>
+                <li><a href="#contact">Contact Info</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="condensed-nav">
+        <div class="condensed-menu">
+            <div class="open-btn" onclick="leftMenu()">
+                <p>Dining</p>
+            </div>
+            <div class="menu-links1">
+                <ul>
+                    <li><a href="#lunch">Lunch</a></li>
+                    <li><a href="#drinks">Drinks</a></li>
+                    <li><a href="#dinner">Dinner</a></li> 
+                </ul>
+            </div>
+        </div>
+
+        <div class="logo">
+            <h1>Coolest Logo!</h1>
+        </div>
+
+        <div class="condensed-menu">
+            <div class="open-btn" onclick="rightMenu()">
+                <p>Services</p>
+            </div>
+            <div class="menu-links2">
+                <ul>
+                    <li><a href="#hours">Hours</a></li>
+                    <li><a href="#more">More</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- slideshow -->
+    <section id="slideshow">
+        <div class="slider">
+            <div class="slides">
+                <img src="images/entre1.jpg" class="slide" alt="Image #1">
+                <img src="images/entre2.jpg" class="slide" alt="Image #2">
+                <img src="images/entre3.jpg" class="slide" alt="Image #3">
+                <img src="images/entre4.jpg" class="slide" alt="Image #4">
+                
+            </div>
+            <button class="prev" onclick="prevSlide()">&#10094</button>
+            <button class="next" onclick="nextSlide()">&#10095</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

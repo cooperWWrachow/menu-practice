@@ -1,0 +1,22 @@
+@media screen and (max-width: 1200px) {
+    /* flip flopping both menus */
+   #menu-nav{
+    display: none;
+   } 
+
+   #condensed-nav{
+    display: flex;
+   }
+}
+
+@media screen and (max-width: 550px) {
+    .logo h1{
+        font-size: 40px;
+    }
+    
+    .open-btn{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 20px;
+    }
+}
